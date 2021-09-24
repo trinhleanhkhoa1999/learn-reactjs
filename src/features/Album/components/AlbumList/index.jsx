@@ -1,12 +1,10 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import './styles.scss'
 import Album from '../Album';
+import './styles.scss';
 
 AlbumList.propTypes = {
 
 };
-
 function AlbumList(props) {
     const { dataAlbumList } = props;
     return (
